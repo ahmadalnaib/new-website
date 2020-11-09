@@ -89,6 +89,7 @@ padding: 10px 0;
 .intro-grid{
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
+  border-radius: 5px 5px 0 0;
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -106,6 +107,50 @@ padding: 10px 0;
 
 .nav-wrapper {
   grid-area: nav-wrapper;
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.flex-dot{
+display: flex;
+padding: 10px;
+}
+
+.dot {
+  background: #000;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  margin: 5px;
+
+}
+
+#dot-1 {
+  background: #fc6058;
+}
+
+#dot-2 {
+  background: #17a2b8;
+}
+
+#dot-3{
+  background: chartreuse;
+}
+
+.intro-grid ul {
+  padding: 10px;
+  display: flex;
+}
+.intro-grid ul li {
+  padding: 5px;
+  margin: 5px;
 }
 
 .left-column{
